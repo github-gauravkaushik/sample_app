@@ -62,7 +62,7 @@ def train_and_evaluate(config_path):
         scores = {
             "rmse" : rmse,
             "mae" : mae,
-            "re" : r2
+            "r2" : r2
             }
         json.dump(scores,f,indent=4)
 
